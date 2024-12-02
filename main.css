@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto mono", monospace;
+    color: #FFEB3B;
+    overflow-x: hidden;
+}
+
+.section-title,
+.nav-link,
+.font-title {
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #1A1A1A;
+}
+
+.nav .nav-link.active {
+    background-color: #4F4F4F;
+    color: #FFEB3B;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.bi {
+    color: #FFEB3B;
+}
+
+.carousel-img {
+    max-height: 767px;
+}
+
+#workshops,
+#fale-conosco {
+    background-color: #1A1A1A;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.rodape {
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    background-color: #1A1A1A;
+    margin: 0;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.rodape:hover {
+    color: #becad1;
+    transform: scale(1.1);
+    text-shadow: 0 0 8px rgba(0, 119, 181, 0.7);
+}
+
+.rodape:focus {
+    outline: none;
+    border-bottom: 2px solid #005582; 
+}
+
+footer {
+    background-color: #1A1A1A;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

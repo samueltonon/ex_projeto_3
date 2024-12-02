@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOLOVO - Portal Institucional</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/inputmask/dist/inputmask.min.js"></script>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold">BOLOVO - Faça o seu futuro!</h1>
+            <button class="navbar-toggler bg-secondary" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-check me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#workshops" class="nav-link">
+                            <i class="bi bi-person-check me-1"></i>
+                            Workshops
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cursos" class="nav-link">
+                            <i class="bi bi-folder-check me-1"></i>
+                            Cursos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-dots me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos" class="bg-secondary">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imgs/bolo1.png" class="w-100 carousel-img" alt="Campus MG">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/bolo2.png" class="w-100 carousel-img" alt="Campus RJ">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/bolo3.png" class="w-100 carousel-img" alt="Campus SP">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imgs/interno.png" class="img-fluid d-block w-100 rounded"
+                                alt="Área de convívio">
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <h2 class="section-title fw-bold text-center mt-md-0">Sobre a Escola</h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id doloribus eligendi eveniet
+                                voluptatibus veritatis error, eos similique fugiat, quo exercitationem nostrum ullam
+                                harum
+                                architecto quis a libero temporibus quisquam nisi.
+                            </p>
+                            <h3 class="section-title fw-bold text-center">Nossos Campus</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id doloribus eligendi eveniet
+                                voluptatibus veritatis error, eos similique fugiat, quo exercitationem nostrum ullam
+                                harum
+                                architecto quis a libero temporibus quisquam nisi.
+                            </p>
+                            <ul>
+                                <li>Campus São Paulo</li>
+                                <li>Campus Rio de Janeiro</li>
+                                <li>Campus Minas Gerais</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="workshops" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold mb-5">Workshops</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo deserunt sit doloremque.
+                        Adipisci omnis numquam delectus. Laudantium voluptate exercitationem enim, ducimus temporibus,
+                        odio quos debitis, et totam perspiciatis nisi.
+                    </p>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imgs/cursos/class.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4 fw-bold">
+                            <i class="bi bi-laptop"></i>
+                            Tecnologia e Informação
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique dolor tenetur
+                            temporibus.
+                        </p>
+                        <button class="btn btn-warning">Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imgs/cursos/living.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4 fw-bold">
+                            <i class="bi bi-bookmark-check"></i>
+                            Produção Cultural
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique dolor tenetur
+                            temporibus.
+                        </p>
+                        <button class="btn btn-warning">Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imgs/cursos/audi.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4 fw-bold">
+                            <i class="bi bi-graph-up-arrow"></i>
+                            Carreiras e Futuro
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique dolor tenetur
+                            temporibus.
+                        </p>
+                        <button class="btn btn-warning">Saiba mais</button>
+                    </div>
+                </div>
+        </section>
+        <section id="cursos" class="bg-secondary pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold mb-5">Cursos</h2>
+                </div>
+                <div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#tecnicos"
+                                    class="nav-link active fw-bold text-start">Cursos
+                                    Técnicos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#superiores"
+                                    class="nav-link fw-bold text-start">Cursos Superiores</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#ead"
+                                    class="nav-link fw-bold text-start">EaD</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tecnicos">
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-pc-display-horizontal"></i>
+                                                Téc em Desenvolvimento de Sistemas
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-ethernet"></i>
+                                                Téc em Rede de Computadores
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-phone-vibrate"></i>
+                                                Téc em Telecomunicações
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-buildings"></i>
+                                                Téc em Edificações
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-easel2"></i>
+                                                Téc em Desenho de Construção Civil
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-keyboard"></i>
+                                                Téc em Design Gráfico
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-camera-reels"></i>
+                                                Téc em Produção de Áudio e Vídeo
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-pc-display-horizontal"></i>
+                                                Téc em Desenvolvimento de Sistemas
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-plus-square"></i>
+                                                E muito mais, entre em contato!
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="superiores">
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-fingerprint"></i>
+                                                Ciências Biológicas/Biologia
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-calculator"></i>
+                                                Matemática
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-rocket"></i>
+                                                Física
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-book-half"></i>
+                                                Letras
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-highlighter"></i>
+                                                Pedagogia
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-duffle"></i>
+                                                Programa Especial de Formação de Docentes para Educação Básica
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-globe-americas"></i>
+                                                Geografia
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-fingerprint"></i>
+                                                Ciências Biológicas/Biologia
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-plus-square"></i>
+                                                E muito mais, entre em contato!
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="ead">
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-pc-display-horizontal"></i>
+                                                Téc em Desenvolvimento de Sistemas
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-ethernet"></i>
+                                                Téc em Rede de Computadores
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-flower1"></i>
+                                                UX/UI Designer
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-house-down"></i>
+                                                Designer de Interiores
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-database-lock"></i>
+                                                Analista de Dados
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-menu-up"></i>
+                                                Engenheiro Front-End
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-shop-window"></i>
+                                                Marketing Digital
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-pc-display-horizontal"></i>
+                                                Téc em Desenvolvimento de Sistemas
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <h5 class="fw-bold font-title mt-2">
+                                                <i class="bi bi-plus-square"></i>
+                                                E muito mais, entre em contato!
+                                            </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold mb-5">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu Nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu E-mail:</label>
+                                <input type="email" id="email" class="form-control" required
+                                    placeholder="exemplo@exemplo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu Telefone:</label>
+                                <input type="tel" id="telefone" class="form-control" required
+                                    placeholder="(__) _____-____">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Fale com a gente, envie sua
+                                    mensagem!</label>
+                                <textarea class="form-control" style="resize: none;" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram ms-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-youtube ms-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp ms-2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Amélia Guerra, nº 157 - Vila Viciosa de Odón - Hong Kong
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p class="section-title text-center fst-italic m-0 pt-3 pb-5 rodape">
+            2024 &copy; <a href="https://www.linkedin.com/in/samuel-tonon-078b41156/" rel="noopener noreferrer" target="_blank">Samuel Tonon</a> - Desenvolvedor Full Stack Python
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var telefoneElement = document.getElementById("telefone");
+
+            if (telefoneElement) {
+                var telefoneMask = new Inputmask({
+                    mask: "(99) 99999-9999",
+                    clearMaskOnLostFocus: true
+                });
+                telefoneMask.mask(telefoneElement);
+            }
+
+            var emailMask = new Inputmask({
+                alias: "email",
+            });
+            emailMask.mask(document.getElementById("email"));
+        });
+    </script>
+</body>
+
+</html>
