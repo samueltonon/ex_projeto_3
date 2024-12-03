@@ -81,3 +81,13 @@ footer {
         height: 280px;
     }
 }
+
+@media (min-width: 768px) {
+    .col-md-10 {
+        flex: 0 0 auto;
+        width: 70%;
+        margin-left: 5px;
+        overflow-wrap: break-word;
+        white-space: normal;
+    }
+}
