@@ -91,3 +91,9 @@ footer {
         white-space: normal;
     }
 }
+
+@media (max-width: 576px) {
+    .ovo-logo {
+        max-width: 35px;
+    }
+}
